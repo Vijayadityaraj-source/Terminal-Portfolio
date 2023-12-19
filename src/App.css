@@ -1,0 +1,29 @@
+body {
+  font-family: monospace;
+  background-color: #241f1d;
+  color: #7a9288;
+  margin: 0;
+  margin-bottom: '600px';
+  padding: 0;
+  font-size: 20px;
+}
+
+p{
+  color: #8c7366;
+  padding: 0;
+  margin: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+input{
+  color: #8c7366;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  body{
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,32 @@
+.animation-container {
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.falling-rectangle {
+  width: 700px;
+  height: 30px;
+  background-color: #7a9288;
+}
+
+.falling-ball {
+  width: 100px;
+  height: 100px;
+  background-color: #8c7366;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.falling-triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 150px solid #8c7366;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
