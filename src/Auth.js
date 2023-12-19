@@ -9,7 +9,7 @@ function Auth(props){
   const sendPasswordToServer = async () => {
     try {
       // Send the plain-text password to the server
-      const response = await fetch('https://server-terminal-portfolio.netlify.app/verifyPassword', {
+      const response = await fetch('http://localhost:8000/verifyPassword', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
