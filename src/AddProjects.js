@@ -22,7 +22,7 @@ function AddProjects() {
         e.preventDefault();
 
         try {
-            await axios.post('https://server-terminal-portfolio.netlify.app/addJson', { project });
+            await axios.post('http://localhost:8000/addJson', { project });
             console.log('JSON file updated successfully');
             setSubmittedProject(project);
         } catch (error) {
