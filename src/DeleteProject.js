@@ -16,7 +16,7 @@ function DeleteProject() {
             e.preventDefault();
 
             try {
-                await axios.post('http://localhost:8000/deleteJson', { name });
+                await axios.post('https://server-terminal-portfolio.netlify.app/deleteJson', { name });
                 console.log('Project Deleted successfully');
                 setIsDeleted('True');
             } catch (error) {
@@ -31,7 +31,7 @@ function DeleteProject() {
 
     const getProjects = async (e) => {
         try {
-            const res = await axios.get('http://localhost:8000/');
+            const res = await axios.get('https://server-terminal-portfolio.netlify.app/');
             setProjects(res.data);
         } catch (error) {
             console.error('Error Deleting Project.', error);
