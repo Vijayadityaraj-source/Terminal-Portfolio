@@ -22,7 +22,7 @@ function AddProjects() {
         e.preventDefault();
 
         try {
-            await axios.post('http://localhost:8000/addJson', { project });
+            await axios.post('https://hexagonal-acoustic-impala.glitch.me/addJson', { project });
             console.log('JSON file updated successfully');
             setSubmittedProject(project);
         } catch (error) {
