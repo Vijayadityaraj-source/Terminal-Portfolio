@@ -11,7 +11,7 @@ function Projects() {
 
     const getProjects = async (e) => {
         try {
-            const res = await axios.get('http://localhost:8000/');
+            const res = await axios.get('https://hexagonal-acoustic-impala.glitch.me/');
             setProjects(res.data);
         } catch (error) {
             console.error('Error Deleting Project.', error);
