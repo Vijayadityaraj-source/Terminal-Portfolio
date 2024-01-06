@@ -20,8 +20,6 @@ input{
   color: #8c7366;
 }
 
-
-
 @media screen and (max-width: 600px) {
   body{
       font-size: 12px;
