@@ -28,7 +28,7 @@ function App() {
     <>
       <Header />
       <Terminal />
-      {showAnimation && <Animation />}
+      {/* {showAnimation && <Animation />} */}
     </>
   );
 }
