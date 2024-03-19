@@ -33,6 +33,7 @@ function Auth(props){
       <label style={{color: '#8c7366'}}>
         Enter Password:
         <input
+          autoFocus
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
